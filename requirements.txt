@@ -1,0 +1,13 @@
+# 运行依赖
+rasterio
+numpy
+requests
+shapely
+Pillow
+pyproj
+netCDF4
+tqdm
+matplotlib
+
+# 仅离线回归测试 selftest.py 需要（用于对照验证 numpy 实现的正确性）
+# scipy
